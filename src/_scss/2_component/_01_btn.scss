@@ -1,0 +1,39 @@
+/*------------------------------------------------------------
+btn
+------------------------------------------------------------*/
+
+/*
+------------------------------------------------------------*/
+.c-morebtn {
+    position: absolute;
+    top: 66%;
+    left: 66%;
+    display: inline-block;
+  
+    &__icon {
+        background: transparent;
+        border: 0;
+        transition: 0.3s;
+        cursor: pointer;
+  
+        &plus {
+            position: absolute;
+            top: 20%;
+            left: 23%;
+        }
+  
+        &:hover {
+            opacity: 0.7;
+        }
+    }
+}
+  
+.c-menubtn {
+    position: fixed;
+    top: 3%;
+    left: 3%;
+    border: 0;
+    background: transparent;
+    z-index: 99999999;
+    cursor: pointer;
+}

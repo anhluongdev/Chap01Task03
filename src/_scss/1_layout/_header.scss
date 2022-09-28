@@ -1,0 +1,29 @@
+/* Header
+------------------------------------------------------------*/
+.c-header {
+    position: fixed;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    top: 7vh;
+    z-index: 99999999;
+  
+    &__list {
+        color: #fff;
+        position: relative;
+        margin-bottom: 14.2px;
+  
+        a {
+            span {
+                position: absolute;
+                top: 50%;
+                font-family: "SawarabiMincho";
+                left: 10%;
+                transform: translateY(-50%);
+                font-size: 1.6rem;
+                letter-spacing: 1.4px;
+            }
+        }
+    }
+}

@@ -1,0 +1,15 @@
+//baseWidth
+$base-width: 1000px;
+
+$main-fonts: "游ゴシック", YuGothic, "ヒラギノ角ゴ Pro", "Hiragino Kaku Gothic Pro", "メイリオ", "Meiryo", sans-serif;
+
+@font-face {
+    font-family: SawarabiMincho;
+    src: url("../../_public/assets/font/SawarabiMincho-Regular.ttf");
+}
+
+@font-face {
+    font-family: SagoeScript;
+    src: url("../../_public/assets/font/segoesc.ttf");
+}
+//color common

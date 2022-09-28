@@ -1,0 +1,119 @@
+/*------------------------------------------------------------
+img
+------------------------------------------------------------*/
+
+/*
+------------------------------------------------------------*/
+
+.c-bganimation {
+    &__leaf {
+        &1 {
+            position: fixed;
+            left: 36.1%;
+        }
+  
+        &2 {
+            position: fixed;
+            top: 50.6%;
+            right: -0.9%;
+        }
+    }
+  
+    img {
+        z-index: 10000;
+    }
+}
+  
+.c-drop {
+    img {
+        position: absolute;
+        z-index: 10000;
+        animation: struggle ease-out 1s alternate infinite;
+    }
+  
+    &1 {
+        top: 418px;
+        left: -87px;
+    }
+  
+    &2 {
+        top: 530px;
+        left: 162px;
+    }
+  
+    &3 {
+        top: 517px;
+        right: 28px;
+    }
+  
+    &4 {
+        top: 80px;
+        right: -143px;
+    }
+  
+    &5 {
+        top: 32px;
+        right: 295px;
+    }
+  
+    &6 {
+        top: 56px;
+        left: 149px;
+    }
+}
+  
+/***** KEYFRAMES FOR DROP *****/
+@keyframes struggle {
+    100% {
+        transform: translateY(-10px);
+    }
+}
+@keyframes dropMoveUp {
+    100% {
+        transform: translateY(-1000%);
+    }
+}
+@keyframes dropMoveDown {
+    0% {
+        transform: translateY(-1000%);
+    }
+
+    100% {
+        transform: translateY(0);
+    }
+}
+  
+/***** END KEYFRAMES FOR DROP *****/
+
+/***** KEYFRAMES FOR LEAF *****/
+@keyframes leafMoveUp {
+    100% {
+        transform: translateY(-50px);
+    }
+}
+  
+@keyframes leafMoveDown {
+    0% {
+        transform: translateY(-50px);
+    }
+
+    100% {
+        transform: translateY(0);
+    }
+}
+@keyframes leafMoveRight {
+    100% {
+        transform: translateX(50px);
+    }
+}
+
+@keyframes leafMoveLeft {
+    0% {
+        transform: translateX(50px);
+    }
+
+    100% {
+        transform: translateX(0);
+    }
+}
+/***** END KEYFRAMES FOR LEAF *****/
